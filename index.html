@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Summer Sale</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
-        
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'primary-color': '#E527B2',
+          }
+        }
+      }
+    }
+  </script>
+<body class="font-worksans">
+    <header class="bg-[#F9F6E2] flex justify-center items-center gap-10 pt-10">
+        <div class=" text-black space-y-11">
+            <h3 class="text-3xl font-medium">---SALE FEVER---</h3>
+            <h2 class="font-bold text-4xl">Purchase TK 200 or <br> above & get <span class="text-primary-color">20% off</span></h2>
+            <div class="flex justify-center items-center gap-4">
+                <h4 class="font-medium text-2xl">Use Promo Code</h4>
+                <button class="btn bg-primary-color text-white">SELL200</button>
+            </div>
+        </div>
+        <div>
+            <img src="images/Summer 1.png" alt="">
+        </div>
     </header>
-    <main></main>
+    <main>
+
+    </main>
 
 
 
